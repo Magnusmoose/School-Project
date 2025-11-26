@@ -7,8 +7,7 @@ def wholeStudentLogin(studentData):
 
 # Prints the cool Ascii art of student login
 def displayStudentLoginMenu():
-    print(fileManagement.openFileReadable("asciiArt/studentLoginAsciiArt.txt"))
-    print("")
+    print(fileManagement.openFileReadable("asciiArt/studentLoginAsciiArt.txt"), "\n")
 
 # Get's and checks the user's inut to decide weather it is valid and if the page should be shown
 def getUserInputIdentification(studentData):

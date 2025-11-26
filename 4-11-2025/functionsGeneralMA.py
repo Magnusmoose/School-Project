@@ -1,5 +1,5 @@
 from time import sleep
-from json import load
+from json import load, dump
 from os import system
 
 # A class for all my functions to do with managing, accessing and save data to and from files
@@ -9,6 +9,10 @@ class fileManagement:
         with open(fileName, "r") as openFileReadable:
             data = load(openFileReadable)
         return data
+
+    def writeToJsonFile(fileName, data):
+        with open(fileName, "w") as openFileWritable:
+            dump(data, openFileWritable, indent = 4)
 
     # Opens a file and returns the data
     def openFileReadable(fileName):
@@ -30,7 +34,7 @@ def coolPrint(text):
     print(end = "\n")
 
 # Gets and validates an input that can be used in all of the menu pages
-def getInputAndValidate(options):
+def getInputAndValidate(options, errorMessage):
     coolPrint("Please make your choice here:")
     menuChoice = str(input()).lower()
     choiceValid = False
@@ -43,7 +47,7 @@ def getInputAndValidate(options):
                 choiceIndex = optionIndex
 
         if choiceValid != True:
-            coolPrint("That is not a valid input please either type the number or name of the page you would like to go to:")
+            coolPrint(f"That is not a valid input please either type the number or name of the {errorMessage} you would like to go to:")
             menuChoice = str(input()).lower()
 
     return choiceIndex

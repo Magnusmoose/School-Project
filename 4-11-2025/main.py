@@ -6,6 +6,7 @@ from time import sleep
 
 data = fileManagement.openJsonFileReadable("programData.json")
 studentData = fileManagement.openJsonFileReadable("studentIdentification.json")
+booksData = fileManagement.openJsonFileReadable("booksData.json")
 quit = False
 
 while quit == False:
@@ -15,7 +16,7 @@ while quit == False:
 		studentObject = wholeStudentLogin(studentData)
 		pageSwap()
 		if studentObject != None:
-			wholeStudentMenu(data, studentObject)
+			wholeStudentMenu(data, studentObject, booksData, studentData)
 			pageSwap()
 	elif menuChoiceMade == 1:
 		pass
