@@ -1,8 +1,14 @@
 from functionsGeneralMA import coolPrint, fileManagement
 
+# A function that can be called in the main program whenever the main manu process needs to be initiated
+def wholeMainMenu(data):
+    displayMainMenu(data["options"])
+    return inputOption(data["options"])
+
+
 # Displays the main menu options for the user to see. I have made it easily editable so that the options that can be selected can be modified at any point
 def displayMainMenu(options):
-    print(fileManagement.openFileReadable("librarySystemAsciiArt.txt"))
+    print(fileManagement.openFileReadable("asciiArt/librarySystemAsciiArt.txt"))
 
     print("")
     for optionIndex in range(len(options)):
