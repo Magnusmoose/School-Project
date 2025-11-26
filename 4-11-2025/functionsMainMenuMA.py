@@ -1,10 +1,9 @@
-from functionsGeneralMA import coolPrint, fileManagement
+from functionsGeneralMA import coolPrint, fileManagement, getInputAndValidate
 
-# A function that can be called in the main program whenever the main manu process needs to be initiated
+# A function that can be called in the main program whenever the main menu process needs to be initiated
 def wholeMainMenu(data):
-    displayMainMenu(data["options"])
-    return inputOption(data["options"])
-
+    displayMainMenu(data["mainMenuOptions"])
+    return getInputAndValidate(data["mainMenuOptions"])
 
 # Displays the main menu options for the user to see. I have made it easily editable so that the options that can be selected can be modified at any point
 def displayMainMenu(options):
@@ -13,22 +12,3 @@ def displayMainMenu(options):
     print("")
     for optionIndex in range(len(options)):
         coolPrint(f"    {optionIndex + 1}) {options[optionIndex]}")
-
-# Gets an input from the user about the selection in the menu that they want to make
-def inputOption(options):
-    coolPrint("Please make your choice here:")
-    menuChoice = str(input()).lower()
-    choiceValid = False
-    
-    while choiceValid != True:
-        choiceValid = False
-        for optionIndex in range(len(options)):
-            if menuChoice == str(options[optionIndex].lower()) or menuChoice == str(optionIndex + 1):
-                choiceValid = True
-                choiceIndex = optionIndex
-
-        if choiceValid != True:
-            coolPrint("That is not a valid input please either type the number or name of the page you would like to go to:")
-            menuChoice = str(input()).lower()
-
-    return choiceIndex

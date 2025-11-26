@@ -1,8 +1,16 @@
 {
-	"options":
+	"mainMenuOptions":
 	[
 		"Student Login",
 		"Librarian Login",
 		"Quit"
+	],
+	"studentMenuOptions":
+	[
+		"Browse Available Books",
+		"Borrow a Book",
+		"Return a Book",
+		"View My Borrowed Books",
+		"Logout"
 	]
 }
