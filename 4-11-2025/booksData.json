@@ -9,114 +9,114 @@
 	},
 	{
 		"identification": "1002",
-		"name": "To Kill a Mockingbird",
-		"author": "Harper Lee",
-		"genre": "fiction",
-		"totalCopies": 3,
-		"availableCopies": 2
+		"name": "A Brief History of Time",
+		"author": "Stephen Hawking",
+		"genre": "science",
+		"totalCopies": 2,
+		"availableCopies": 1
 	},
 	{
 		"identification": "1003",
-		"name": "To Kill a Mockingbird",
-		"author": "Harper Lee",
-		"genre": "fiction",
-		"totalCopies": 3,
-		"availableCopies": 2
+		"name": "The Diary of Anne Frank",
+		"author": "Anne Frank",
+		"genre": "biography",
+		"totalCopies": 4,
+		"availableCopies": 4
 	},
 	{
 		"identification": "1004",
-		"name": "To Kill a Mockingbird",
-		"author": "Harper Lee",
+		"name": "1984",
+		"author": "George Orwell",
 		"genre": "fiction",
-		"totalCopies": 3,
-		"availableCopies": 2
+		"totalCopies": 5,
+		"availableCopies": 3
 	},
 	{
 		"identification": "1005",
-		"name": "To Kill a Mockingbird",
-		"author": "Harper Lee",
-		"genre": "fiction",
+		"name": "Sapiens",
+		"author": "Yuval Noah Harari",
+		"genre": "history",
 		"totalCopies": 3,
-		"availableCopies": 2
+		"availableCopies": 3
 	},
 	{
 		"identification": "1006",
-		"name": "To Kill a Mockingbird",
-		"author": "Harper Lee",
-		"genre": "fiction",
-		"totalCopies": 3,
+		"name": "The Origin of Species",
+		"author": "Charles Darwin",
+		"genre": "science",
+		"totalCopies": 2,
 		"availableCopies": 2
 	},
 	{
 		"identification": "1007",
-		"name": "To Kill a Mockingbird",
-		"author": "Harper Lee",
-		"genre": "fiction",
+		"name": "Steve Jobs",
+		"author": "Walter Isaacson",
+		"genre": "biography",
 		"totalCopies": 3,
-		"availableCopies": 2
+		"availableCopies": 1
 	},
 	{
 		"identification": "1008",
-		"name": "To Kill a Mockingbird",
-		"author": "Harper Lee",
+		"name": "Animal Farm",
+		"author": "George Orwell",
 		"genre": "fiction",
-		"totalCopies": 3,
-		"availableCopies": 2
+		"totalCopies": 4,
+		"availableCopies": 4
 	},
 	{
 		"identification": "1009",
-		"name": "To Kill a Mockingbird",
-		"author": "Harper Lee",
-		"genre": "fiction",
-		"totalCopies": 3,
-		"availableCopies": 2
+		"name": "A Short History of Nearly Everything",
+		"author": "Bill Bryson",
+		"genre": "science",
+		"totalCopies": 2,
+		"availableCopies": 0
 	},
 	{
 		"identification": "1010",
-		"name": "To Kill a Mockingbird",
-		"author": "Harper Lee",
-		"genre": "fiction",
+		"name": "The Diary of a Young Girl",
+		"author": "Anne Frank",
+		"genre": "biography",
 		"totalCopies": 3,
 		"availableCopies": 2
 	},
 	{
 		"identification": "1011",
-		"name": "To Kill a Mockingbird",
-		"author": "Harper Lee",
-		"genre": "fiction",
-		"totalCopies": 3,
+		"name": "World War II",
+		"author": "Antony Beevor",
+		"genre": "history",
+		"totalCopies": 2,
 		"availableCopies": 2
 	},
 	{
 		"identification": "1012",
-		"name": "To Kill a Mockingbird",
-		"author": "Harper Lee",
+		"name": "Pride and Prejudice",
+		"author": "Jane Austen",
 		"genre": "fiction",
-		"totalCopies": 3,
-		"availableCopies": 2
+		"totalCopies": 5,
+		"availableCopies": 5
 	},
 	{
 		"identification": "1013",
-		"name": "To Kill a Mockingbird",
-		"author": "Harper Lee",
-		"genre": "fiction",
+		"name": "The Selfish Gene",
+		"author": "Richard Dawkins",
+		"genre": "science",
 		"totalCopies": 3,
-		"availableCopies": 2
+		"availableCopies": 3
 	},
 	{
 		"identification": "1014",
-		"name": "To Kill a Mockingbird",
-		"author": "Harper Lee",
-		"genre": "fiction",
-		"totalCopies": 3,
-		"availableCopies": 2
+		"name": "Long Walk to Freedom",
+		"author": "Nelson Mandela",
+		"genre": "biography",
+		"totalCopies": 2,
+		"availableCopies": 1
 	},
 	{
 		"identification": "1015",
-		"name": "To Kill a Mockingbird",
-		"author": "Harper Lee",
-		"genre": "fiction",
-		"totalCopies": 3,
+		"name": "The History of the Ancient World",
+		"author": "Susan Wise Bauer",
+		"genre": "history",
+		"totalCopies": 2,
 		"availableCopies": 2
 	}
 ]
