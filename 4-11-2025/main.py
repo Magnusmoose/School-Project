@@ -1,3 +1,7 @@
-from functionsMainMenuMA import displayMainMenu
+from functionsMainMenuMA import displayMainMenu, inputOption
+from functionsGeneralMA import fileManagement
 
-displayMainMenu()
+data = fileManagement.openJsonFileReadable("programData.json")
+
+displayMainMenu(data["options"])
+print(inputOption(data["options"]))

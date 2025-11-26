@@ -1,0 +1,87 @@
+[
+	{
+		"identification": "10001",
+		"name": "Alice Johnson",
+		"booksTakenOut":
+		[
+			"1001",
+			"1005"
+		],
+		"numberOfBooksTakenOut": 2,
+		"anyOverdueBooks": false
+	},
+	{
+		"identification": "10002",
+		"name": "Bob Smith",
+		"booksTakenOut":
+		[
+			null
+		],
+		"numberOfBooksTakenOut": 0,
+		"anyOverdueBooks": false
+	},
+	{
+		"identification": "10003",
+		"name": "Charlie Brown",
+		"booksTakenOut":
+		[
+			"1002"
+		],
+		"numberOfBooksTakenOut": 1,
+		"anyOverdueBooks": true
+	},
+	{
+		"identification": "10004",
+		"name": "Diana Prince",
+		"booksTakenOut":
+		[
+			"1004",
+			"1007",
+			"1012"
+		],
+		"numberOfBooksTakenOut": 3,
+		"anyOverdueBooks": false
+	},
+	{
+		"identification": "10005",
+		"name": "Ethan Hunt",
+		"booksTakenOut":
+		[
+			"1009"
+		],
+		"numberOfBooksTakenOut": 1,
+		"anyOverdueBooks": false
+	},
+	{
+		"identification": "10006",
+		"name": "Fiona Green",
+		"booksTakenOut":
+		[
+			null
+		],
+		"numberOfBooksTakenOut": 0,
+		"anyOverdueBooks": false
+	},
+	{
+		"identification": "10007",
+		"name": "George Harris",
+		"booksTakenOut":
+		[
+			"1011",
+			"1013"
+		],
+		"numberOfBooksTakenOut": 2,
+		"anyOverdueBooks": false
+	},
+	{
+		"identification": "10008",
+		"name": "Hannah White",
+		"booksTakenOut":
+		[
+			"1003",
+			"1008"
+		],
+		"numberOfBooksTakenOut": 2,
+		"anyOverdueBooks": false
+	}
+]
